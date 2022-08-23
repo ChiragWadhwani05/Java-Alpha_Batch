@@ -1,6 +1,6 @@
 class maxsumofsubarray {
     public static void calculatesum(int arr[]) {
-        int maxsum = 0;
+        int maxsum = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i; j < arr.length; j++) {
                 int currentsum = 0;
@@ -25,7 +25,7 @@ class maxsumofsubarray {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 1, -2, 6, -1, 3 };
+        int arr[] = { -1, -2, -6, -1, -3 };
         calculatesum(arr);
     }
 }
