@@ -16,4 +16,4 @@ public class distinctelement {
     }
 }
 //it is not a best solution 
-//time complexity =O(n)
+//time complexity =O(n^2)
