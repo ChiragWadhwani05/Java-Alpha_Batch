@@ -10,6 +10,6 @@ class product{
         System.out.print("Enter 2nd number :");
         int b =sc.nextInt();
         int product = a*b;
-        System.out.println("Product of given numbers is =" + product);
+        System.out.println("Product of given numbers is =" + products);
     }
 }
