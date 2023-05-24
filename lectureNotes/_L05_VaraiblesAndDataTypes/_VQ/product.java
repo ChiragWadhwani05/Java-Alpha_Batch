@@ -9,7 +9,7 @@ class product{
         int a =sc.nextInt();
         System.out.print("Enter 2nd number :");
         int b =sc.nextInt();
-        int product = a*b;
-        System.out.println("Product of given numbers is =" + products);
+        int pro = a*b;
+        System.out.println("Product of given numbers is =" + pro);
     }
 }
