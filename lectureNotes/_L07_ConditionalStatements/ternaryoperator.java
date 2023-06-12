@@ -1,4 +1,4 @@
-package lectureNotes._L7_ConditionalStatements;
+
 
 public class ternaryoperator {
     public static void main(String[] args) {

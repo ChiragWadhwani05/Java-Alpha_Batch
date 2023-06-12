@@ -12,4 +12,5 @@ class subtract{
         int subtraction = a-b;
         System.out.println("Sum of given numbers is =" + subtraction);
     }
+
 }

@@ -1,4 +1,4 @@
-package lectureNotes._L7_ConditionalStatements;
+
 
 import java.util.Scanner;
 
