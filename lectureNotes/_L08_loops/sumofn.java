@@ -1,6 +1,6 @@
 import java.util.*;
-public class main{
- public static void sumofn(String[] args){
+public class sumofn{
+ public static void main(String[] args){
  Scanner sc =new Scanner(System.in);
 System.out.print("ENTER N :"); 
  int n= sc.nextInt();

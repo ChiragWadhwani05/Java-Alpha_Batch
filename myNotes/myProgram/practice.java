@@ -1,12 +1,18 @@
 package myNotes;
 public class practice{
+   public static boolean isEven(int a){
+        if (a%2==0) {
+            return true;
+        }else{
+            return false;
+        }
+
+    }
     public static void main(String[] args) {
-        int a =5;
-        int b=3;
-        int c = a*b/a;
-        int d = a/b*a;
-        System.out.print(c);
-        System.out.print(d);
+        int a=10;
+        
+        System.out.println(isEven(a));
+
     }    
     
 }
