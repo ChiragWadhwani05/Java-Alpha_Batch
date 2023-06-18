@@ -7,7 +7,6 @@ class spiralmatrix {
 
         while (startrow <= endrow && startcol <= endcol) {
             for (int j = startcol; j < endcol; j++) {
-
                 System.out.print(arr[startrow][j] + " ");
             }
 
@@ -21,7 +20,7 @@ class spiralmatrix {
                 System.out.print(arr[i][startcol] + " ");
             }
             startrow++;
-            startcol++;
+            startcol++; 
             endcol--;
             endrow--;
         }

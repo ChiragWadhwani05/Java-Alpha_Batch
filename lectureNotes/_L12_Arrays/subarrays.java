@@ -10,9 +10,9 @@ class subarrays {
                     System.out.print("," + arr[j2] + " ");
                     sum = sum + arr[j2];
                 }
-                System.out.println();
-                System.out.print("SUM = " + sum);
-                System.out.println();
+                System.out.println(); 
+                // System.out.print("SUM = " + sum);
+                // System.out.println();
             }
             System.out.println();
         }

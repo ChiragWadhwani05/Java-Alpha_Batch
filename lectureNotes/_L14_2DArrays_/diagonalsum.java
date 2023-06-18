@@ -7,7 +7,7 @@ public class diagonalsum {
                 if (i + j == matrix.length - 1) {
                     secondarydiagonal += matrix[i][j];
                 }
-                if (i == j) {
+               else if (i == j) {
                     primarydiagonal += matrix[i][j];
                 }
             }

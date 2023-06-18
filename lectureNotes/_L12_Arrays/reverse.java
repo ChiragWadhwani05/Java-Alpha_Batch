@@ -16,7 +16,7 @@ class reverse {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 2, 3, 5, 6, 8, 9 };
+        int arr[] = { 2, 3, 6, 8, 9 };
         reversearray(arr);
 
     }

@@ -5,7 +5,7 @@ class charAt {
         String concatination = firstname + " " + lastname;
         System.out.println(concatination);// Concatination..
         for (int i = 0; i < concatination.length(); i++) {
-            System.out.println(concatination.charAt(i));
+            System.out.print(concatination.charAt(i));
 
         }
     }

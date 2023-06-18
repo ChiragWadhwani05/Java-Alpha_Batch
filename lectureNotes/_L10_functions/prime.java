@@ -12,6 +12,6 @@ public class prime {
         return checkprime;
     }
     public static void main(String[] args) {
-       System.out.println(checkprime(20)); 
+       System.out.println(checkprime(2)); 
     }
 }

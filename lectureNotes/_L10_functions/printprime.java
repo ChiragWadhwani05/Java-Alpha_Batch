@@ -13,7 +13,7 @@ public class printprime {
     public static void prime(int n) {
         for (int i = 2; i < n; i++) {
             if (isprime(i)) {
-                System.out.println(i);
+                System.out.print(i + " ");
             }
            
         }

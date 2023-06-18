@@ -11,6 +11,7 @@ class maxsumofsubarray {
                     currentsum = currentsum + arr[j2];
                 }
                 System.out.print(")" + "  ");
+                System.out.println(currentsum);
 
                 if (maxsum < currentsum) {
                     maxsum = currentsum;
@@ -25,7 +26,7 @@ class maxsumofsubarray {
     }
 
     public static void main(String[] args) {
-        int arr[] = { -1, -2, -6, -1, -3 };
+        int arr[] = { -1, -2, 6, -1, 3 };
         calculatesum(arr);
     }
 }
