@@ -1,4 +1,4 @@
-import java.util.*;
+
 
 class kadansalgorythm {
     public static void kadanalgorythm(int numbers[]) {
